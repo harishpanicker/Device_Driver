@@ -1,0 +1,1 @@
+cmd_/var/data/workspace/mohsha/johny/Linux/kfifo/kfifo.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /var/data/workspace/mohsha/johny/Linux/kfifo/kfifo.ko /var/data/workspace/mohsha/johny/Linux/kfifo/kfifo.o /var/data/workspace/mohsha/johny/Linux/kfifo/kfifo.mod.o ;  true
